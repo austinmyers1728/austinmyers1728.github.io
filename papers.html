@@ -1,21 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <title>Publications</title>
   <style>
-    /* Basic reset */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
     body {
-      font-family: Times New Roman, serif;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
     }
 
-    /* Nav bar styles */
+    /* Navigation bar styles */
     nav {
-      background-color: #2c4f6e;
+      background-color: #333;
       padding: 1em;
     }
 
@@ -23,6 +20,8 @@
       list-style: none;
       display: flex;
       justify-content: center;
+      margin: 0;
+      padding: 0;
     }
 
     nav ul li {
@@ -38,24 +37,16 @@
     nav ul li a:hover {
       text-decoration: underline;
     }
-  </style>
-  <meta charset="UTF-8">
-  <title>Publications</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 2em;
-      background-color: #f9f9f9;
-    }
 
     h1 {
       text-align: center;
       color: #333;
+      margin-top: 2em;
     }
 
     .pub-list {
       max-width: 800px;
-      margin: 0 auto;
+      margin: 2em auto;
       padding: 0;
       list-style: none;
     }
@@ -91,30 +82,16 @@
 </head>
 <body>
 
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <!-- Add more links here if needed -->
+    </ul>
+  </nav>
+
+  <!-- Page Content -->
   <h1>Publications</h1>
 
   <ul class="pub-list">
-
-    <li class="pub-item">
-      <div class="pub-title">An Efficient Algorithm for XYZ</div>
-      <div class="pub-authors">A. Myers, B. Smith, C. Zhang</div>
-      <div class="pub-venue">Proceedings of the International Conference on ABC</div>
-      <div class="pub-year">2024</div>
-      <div class="pub-link"><a href="https://example.com/paper1.pdf" target="_blank">[PDF]</a></div>
-    </li>
-
-    <li class="pub-item">
-      <div class="pub-title">Deep Learning for DEF Applications</div>
-      <div class="pub-authors">A. Myers, D. Lee</div>
-      <div class="pub-venue">Journal of Machine Learning Research</div>
-      <div class="pub-year">2023</div>
-      <div class="pub-link"><a href="https://example.com/paper2" target="_blank">[Journal]</a></div>
-    </li>
-
-    <!-- Add more publication entries here -->
-
-  </ul>
-
-</body>
-</html>
-
