@@ -1,1 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Publications</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2em;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    .pub-list {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0;
+      list-style: none;
+    }
+
+    .pub-item {
+      background-color: #fff;
+      margin: 1em 0;
+      padding: 1em;
+      border-left: 5px solid #007acc;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .pub-title {
+      font-size: 1.1em;
+      font-weight: bold;
+      color: #007acc;
+    }
+
+    .pub-authors, .pub-venue, .pub-year {
+      margin: 0.3em 0;
+      color: #555;
+    }
+
+    .pub-link a {
+      color: #007acc;
+      text-decoration: none;
+    }
+
+    .pub-link a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Publications</h1>
+
+  <ul class="pub-list">
+
+    <li class="pub-item">
+      <div class="pub-title">An Efficient Algorithm for XYZ</div>
+      <div class="pub-authors">A. Myers, B. Smith, C. Zhang</div>
+      <div class="pub-venue">Proceedings of the International Conference on ABC</div>
+      <div class="pub-year">2024</div>
+      <div class="pub-link"><a href="https://example.com/paper1.pdf" target="_blank">[PDF]</a></div>
+    </li>
+
+    <li class="pub-item">
+      <div class="pub-title">Deep Learning for DEF Applications</div>
+      <div class="pub-authors">A. Myers, D. Lee</div>
+      <div class="pub-venue">Journal of Machine Learning Research</div>
+      <div class="pub-year">2023</div>
+      <div class="pub-link"><a href="https://example.com/paper2" target="_blank">[Journal]</a></div>
+    </li>
+
+    <!-- Add more publication entries here -->
+
+  </ul>
+
+</body>
+</html>
 
