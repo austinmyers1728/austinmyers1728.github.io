@@ -1,14 +1,63 @@
-<!DOCTYPE html> 
-<html>
-  <head>
-    <title>Austin Myers</title>
-  </head>
-  
-  <body>
-    <h1>Welcome to my website</h1>  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My GitHub Pages Site</title>
+  <style>
+    /* Basic reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-    <img src="files/austin.jpg" alt="me">
-    
-    <p>Here is a copy of my <a href="files/Austin_Myers_CV.pdf">CV. </a></p> 
-  </body>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    /* Nav bar styles */
+    nav {
+      background-color: #333;
+      padding: 1em;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="papers.html">Papers</a></li>
+    </ul>
+  </nav>
+
+  <div style="padding: 2em;">
+    <h1>Welcome to my website.</h1>
+    <p>Here is a copy of my <a href="files/Austin_Myers_CV.pdf">CV.</a></p>
+  </div>
+
+</body>
 </html>
+
