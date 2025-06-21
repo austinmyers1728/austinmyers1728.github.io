@@ -59,18 +59,13 @@
       text-decoration: underline; /* underline on hover */
     }
 
-  /* Unvisited link */
-    a1:link {
+  /* Class for blue link */
+    .blue-link:link, .blue-link:visited {
       color: blue;
     }
 
-    /* Visited link */
-    a1:visited {
-      color: purple;
-    }
-
-    /* Mouse over link */
-    a1:hover {
+    /* Hover effects */
+    .blue-link:hover {
       color: red;
       text-decoration: underline;
     }
@@ -79,9 +74,9 @@
   
   <nav>
     <ul>
-      <li><a2 href="index.html">home</a2></li>
-      <li><a2 href="about.html">about</a2></li>
-      <li><a2 href="blog.html">blog</a2></li>
+      <li><a href="index.html">home</a></li>
+      <li><a href="about.html">about</a></li>
+      <li><a href="blog.html">blog</a></li>
       <!-- <li><a href="papers.html">Papers</a></li> -->
     </ul>
   </nav>
@@ -93,14 +88,14 @@
     
     <p>A picture of the (real part) of the modular discriminant function on the hyperbolic plane.</p>
       
-    <p>Here is a copy of my <a1 href="files/Austin_Myers_CV.pdf">CV.</a1></p>
+    <p>Here is a copy of my <a href="files/Austin_Myers_CV.pdf" class="blue-link">CV.</a></p>
 
     <h1>papers/publications:</h1>
-    <p>1. HAMMR-L: Noise Reduction in Quantum Outcomes Using a Richardson-Lucy Deconvolution Algorithm for Quantum State Graphs, with J. Scally, R. Carmichael, P. Tran and X. Liu <a1 href="files/HAMMR-L.pdf">[pdf].</a1></p>
+    <p>1. HAMMR-L: Noise Reduction in Quantum Outcomes Using a Richardson-Lucy Deconvolution Algorithm for Quantum State Graphs, with J. Scally, R. Carmichael, P. Tran and X. Liu <a href="files/HAMMR-L.pdf" class="blue-link">[pdf].</a></p>
   
-    <p>2. ABS-Q: An Effective Analysis-by-Synthesis Framework for Recovering Signals from Noisy Quantum Outputs, with P. Tran, J. Scally, R. Carmichael, H. Yi, X. Liu and B. Arigong <a1 href="files/Abs-Q.pdf">[pdf].</a1></p>
+    <p>2. ABS-Q: An Effective Analysis-by-Synthesis Framework for Recovering Signals from Noisy Quantum Outputs, with P. Tran, J. Scally, R. Carmichael, H. Yi, X. Liu and B. Arigong <a href="files/Abs-Q.pdf" class="blue-link">[pdf].</a></p>
   
-    <p>3. QRFM : Quantum Recursive Feature Machine, with H. Yi, P. Tran, J. Scally, R. Carmichael, X. Liu and W. Yu <a1 href="files/QRFM.pdf">[pdf].</a1></p>
+    <p>3. QRFM : Quantum Recursive Feature Machine, with H. Yi, P. Tran, J. Scally, R. Carmichael, X. Liu and W. Yu <a href="files/QRFM.pdf" class="blue-link">[pdf].</a></p>
   
     <h1>expository/other writing:</h1>
   </div>
