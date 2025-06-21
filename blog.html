@@ -1,1 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+    }
+
+    /* Navigation bar */
+    nav {
+      background-color: #333;
+      padding: 1em;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-top: 2em;
+    }
+
+    .blog-container {
+      max-width: 800px;
+      margin: 2em auto;
+      padding: 0 1em;
+    }
+
+    .blog-post {
+      background-color: #fff;
+      margin-bottom: 2em;
+      padding: 1em 1.5em;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      border-left: 5px solid #007acc;
+    }
+
+    .blog-title {
+      font-size: 1.4em;
+      color: #007acc;
+      margin-bottom: 0.3em;
+    }
+
+    .blog-date {
+      color: #888;
+      font-size: 0.9em;
+      margin-bottom: 1em;
+    }
+
+    .blog-snippet {
+      color: #444;
+      line-height: 1.5;
+    }
+
+    .read-more {
+      display: inline-block;
+      margin-top: 0.8em;
+      color: #007acc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .read-more:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">Pictures</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul>
+  </nav>
+
+  <!-- Blog Content -->
+  <h1>Blog</h1>
+
+  <div class="blog-container">
+
+    <div class="blog-post">
+      <div class="blog-title">Reflections on My Research Journey</div>
+      <div class="blog-date">June 15, 2025</div>
+      <div class="blog-snippet">
+        It's been an exciting few years exploring algorithmic theory and applied machine learning. In this post, I’ll share what I’ve learned, the mistakes I made, and what I’d do differently...
+      </div>
+      <a class="read-more" href="blog-post1.html">Read more →</a>
+    </div>
+
+    <div class="blog-post">
+      <div class="blog-title">Tips for Writing Academic Papers</div>
+      <div class="blog-date">May 10, 2025</div>
+      <div class="blog-snippet">
+        Writing research papers can be daunting. Here are a few practical tips that helped me structure, refine, and publish academic writing more effectively...
+      </div>
+      <a class="read-more" href="blog-post2.html">Read more →</a>
+    </div>
+
+  </div>
+
+</body>
+</html>
 
