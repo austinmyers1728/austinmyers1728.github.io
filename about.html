@@ -49,6 +49,16 @@
       height: 250px
       margin-right: 20px;
     }
+
+    .shadow-image {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease; /* smooth transition */
+    border-radius: 8px; /* optional */
+    }
+
+    .shadow-image:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); /* stronger shadow */
+    } 
   </style>
 </head>
 <body>
@@ -90,7 +100,7 @@
 
   <div class="container" style="padding: 2em;">
     
-    <img src="files/P6170503.jpeg" style="border-radius: 10px; align-self: flex-start; box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);" alt="me">
+    <img src="files/P6170503.jpeg" style="border-radius: 10px; align-self: flex-start;" class="shadow-image" alt="me">
 
     <div style="padding-left: 2em; padding-right: 2em;">
       <h1>about me:</h1>
