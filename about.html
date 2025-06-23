@@ -39,7 +39,15 @@
       text-decoration: underline;
     }
 
-    
+    .container {
+      display: flex;
+      /*align-items: center;  */
+    }
+
+    .container img {
+      width: 200px;
+      margin-right: 20px;
+    }
   </style>
 </head>
 <body>
@@ -79,17 +87,14 @@
     </ul>
   </nav>
 
-  <div style="padding: 2em;">
-
-    <h1>about me:</h1>
+  <div class="container" style="padding: 2em;">
     
     <img src="files/austin.JPG" style="margins: 20px;" alt="me" width="200">
 
-    <p>My research interests are mostly in areas related to arithmetic geometry. In particular, I am interested in Galois represenations and automorphic forms in number theory.</p>
+    <div style="padding: 2em">
+      <h1>about me:</h1>
 
-    <p>I have also done some work in quantum information, mostly related to variational quantum algorithms, as well as improvements to quantum machine learning in general.</p>
-  
-    <p>email: austinmyers1.414@gmail.com</p>
-    
-    <p>       atm22b@fsu.edu </p>
+      <p>My research interests are mostly in areas related to arithmetic geometry. In particular, I am interested in Galois represenations and automorphic forms in number theory.</p>
+
+      <p>I have also done some work in quantum information, mostly related to variational quantum algorithms, as well as improvements to quantum machine learning in general.</p>
   </div>
