@@ -127,6 +127,16 @@
       color: #2CAFFF;
       text-decoration: underline;
     }
+
+    .responsive-img {
+      width: 600px;
+    }
+
+    @media (max-width: 768px) {
+      .responsive-img {
+        width: 100%;
+      }
+  }
   </style>
   <!-- Navigation Bar -->
   <nav>
@@ -138,8 +148,8 @@
   </nav>
 
   <!-- Blog Content -->
-  <div style="max-width: 600px; align: center; margin: 10px;">
-    <img src="files/iceland.jpeg" style="border-radius: 10px; max-width: 100%; height: auto;" class="shadow-image" alt="me">
+  <div style="text-align: center; margin: 10px;">
+    <img src="files/iceland.jpeg" style="border-radius: 10px;" class="responsive-img" alt="me">
   </div>
   
   <h1>blog</h1>
