@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
   <meta charset="UTF-8">
-  <title>Reflections on My Research Journey</title>
+  <title>Austin Myers</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
+    /* Basic reset */
+    * {
       margin: 0;
-      background-color: #f9f9f9;
+      padding: 0;
+      box-sizing: border-box;
     }
 
-    /* Navigation bar */
+    body {
+      font-family: Courier, serif;
+    }
+
+    /* Nav bar styles */
     nav {
-      background-color: #333;
+      background-color: #000000;
       padding: 1em;
     }
 
@@ -20,100 +26,109 @@
       list-style: none;
       display: flex;
       justify-content: center;
-      margin: 0;
-      padding: 0;
     }
 
     nav ul li {
-      margin: 0 15px;
+      margin: 0 30px;
     }
 
     nav ul li a {
-      color: white;
+      color: #03D500;
       text-decoration: none;
       font-weight: bold;
     }
 
     nav ul li a:hover {
+      color: #8BFF89;
       text-decoration: underline;
     }
 
-    .post-container {
-      max-width: 800px;
-      margin: 2em auto;
-      padding: 0 1.5em;
-      background-color: #fff;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-      border-left: 5px solid #007acc;
+    .container {
+      display: flex;
+      /*align-items: center;  */
     }
 
-    .post-title {
-      font-size: 1.8em;
-      color: #007acc;
-      margin-top: 1.2em;
+    .container img {
+      width: 300px;
+      margin-right: 20px;
     }
 
-    .post-date {
-      font-size: 0.9em;
-      color: #888;
-      margin-bottom: 1.5em;
+    .shadow-image {
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease; /* smooth transition */
+    border-radius: 8px; /* optional */
     }
 
-    .post-content {
-      color: #333;
-      line-height: 1.7;
-      padding-bottom: 2em;
-    }
-
-    .back-link {
-      display: block;
-      margin: 2em 0;
-      color: #007acc;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .back-link:hover {
-      text-decoration: underline;
-    }
+    .shadow-image:hover {
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.5); /* stronger shadow */
+    } 
   </style>
 </head>
 <body>
 
-  <!-- Navigation Bar -->
+<style>
+  p {
+    margin-bottom: 1em; /* or px value like 20px */
+    color: #454545;
+  }
+
+  body {
+      background-color: #F3F3F3; /* Light gray */
+      margin-left: 200px;
+      margin-right: 200px;
+      margin-top: 30px;
+    }
+
+  h1 {
+    color: #454545;
+  }
+    
+  h1:hover {
+      color: #737373; /* color on hover */
+      text-decoration: underline; /* underline on hover */
+    }
+
+  /* Class for blue link */
+    .blue-link:link {
+      color: #000AA2;
+    }
+
+    .blue-link:visited {
+      color: purple;
+    }
+
+    /* Hover effects */
+    .blue-link:hover {
+      color: #2CAFFF;
+      text-decoration: underline;
+    }
+    
+</style>
+  
   <nav>
     <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="publications.html">Publications</a></li>
-      <li><a href="blog.html">Blog</a></li>
+      <li><a href="index.html">[home]</a></li>
+      <li><a href="about.html">[about]</a></li>
+      <li><a href="blog.html">[blog]</a></li>
+      <!-- <li><a href="papers.html">Papers</a></li> -->
     </ul>
   </nav>
 
-  <!-- Blog Post Content -->
-  <div class="post-container">
-    <h1 class="post-title">Reflections on My Research Journey</h1>
-    <p class="post-date">June 15, 2025</p>
-
-    <div class="post-content">
-      <p>
-        Over the past few years, I’ve had the opportunity to work on a number of challenging and rewarding research projects. From theoretical frameworks to applied machine learning systems, the journey has been as much about personal growth as academic discovery.
-      </p>
-
-      <p>
-        In this post, I want to reflect on what I’ve learned — including both breakthroughs and failures — and share some advice for researchers just starting out. One key lesson: the value of patience and persistence in experimentation.
-      </p>
-
-      <p>
-        I’ve also found that collaboration and communication play a crucial role in meaningful research. Talking through ideas with peers often led to insights I wouldn’t have found on my own.
-      </p>
-
-      <p>
-        Moving forward, I plan to continue bridging theory and application in my work. Thanks for reading!
-      </p>
-    </div>
-
-    <a href="blog.html" class="back-link">← Back to Blog</a>
+  <div style="padding-left: 2em; padding-right: 2em;">
+    <a href="blog.html" style="color: #454545"><-- back </a>
   </div>
+  
+  <div style="padding-left: 2em; padding-right: 2em;">
+    <h1>hello blog...</h1> <!-- write title here -->
+    <p>This is the first blog post. We'll see if I actually use this feature...</p> <!-- write content here -->
+  </div>
+  
+  <div style="position: relative; height: 200px; background: #F3F3F3;">
+    <div style="position: absolute; bottom: 10px; right: 10px;">
+      <a href="blog.html" style="color: #454545"><-- </a><a href="blog.html" style="color: #454545">--> </a>
+    </div>
+  </div>
+
 
 </body>
 </html>
