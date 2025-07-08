@@ -123,9 +123,9 @@
     </ul>
   </nav>
 
-  <!--<div style="text-align: center; margin: 10px;">
+  <div style="text-align: center; margin: 10px;">
     <img src="files/iceland.jpeg" style="border-radius: 10px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);" class="responsive-img" alt="me">
-  </div> -->
+  </div>
 
   <button onclick="history.back()" style="
     padding: 10px 20px;
@@ -139,21 +139,41 @@
     ← Back
   </button>
   
-  <div style="padding-left: 2em; padding-right: 2em;">
+  <!--<div style="padding-left: 2em; padding-right: 2em;">
     <a href="blog.html" style="color: #454545"><-- back </a>
-  </div>
+  </div> -->
   
   <div style="padding-left: 2em; padding-right: 2em;">
     <h1>hello blog...</h1> <!-- write title here -->
     <p>This is the first blog post. We'll see if I actually use this feature...</p> <!-- write content here -->
   </div>
   
-  <div style="position: relative; height: 200px; background: #F3F3F3;">
+  <!--<div style="position: relative; height: 200px; background: #F3F3F3;">
     <div style="position: absolute; bottom: 10px; right: 10px;">
       <a href="blog.html" style="color: #454545"><-- </a><a href="blog.html" style="color: #454545">--> </a>
-    </div>
-  </div>
+    <!--</div>
+  </div> -->
 
+  <div style="
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  ">
+    <button onclick="window.location.href='previous-page.html'" style="
+      padding: 10px 20px;
+      font-size: 16px;
+    ">
+      ← previous
+    </button>
+
+    <button onclick="window.location.href='next-page.html'" style="
+      padding: 10px 20px;
+      font-size: 16px;
+    ">
+      next →
+    </button>
+</div>
 
 </body>
 </html>
